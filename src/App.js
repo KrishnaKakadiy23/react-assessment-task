@@ -10,7 +10,6 @@ function App() {
   const isTablet = useMediaQuery("(max-width: 991px)");
   const isMobile = useMediaQuery("(max-width: 425px)");
 
-
   // for city
   const [checkedCity1, setCheckedCity1] = useState(false);
   const [checkedCity2, setCheckedCity2] = useState(false);
